@@ -1,7 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        TextParser parse = new TextParser();
+
+        System.out.println(parse.getImpText());
     }
 }
 
